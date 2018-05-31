@@ -21,11 +21,11 @@ class Pet:
             print(self.name + " is too ded to schleeep.")
 
     def play(self):
-        if self.is_alive and self.happiness > 1:
+        if self.is_alive and self.happiness > 0:
             print("Yeet!")
 
         elif self.is_alive and self.happiness == 0:
-            print(self.name + " is too grump to play.")
+            print(self.name + " is too grump to yeet.")
         else:
             print(self.name + " is too ded to yeet.")
 
